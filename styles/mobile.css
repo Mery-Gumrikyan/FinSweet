@@ -1,0 +1,154 @@
+@media screen and (max-width: 1040px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+  header,
+  .action {
+    flex-direction: column;
+    align-items: center;
+    height: 15rem;
+  }
+  .action button {
+    font-size: 0.8rem;
+    padding: 0.5rem 1.5rem;
+  }
+  .introduction {
+    text-align: center;
+  }
+  .introduction .text {
+    padding: 0.5rem 0.5rem;
+  }
+  .slogan {
+    font-size: 2rem;
+  }
+  .posts {
+    margin: 0;
+    flex-direction: column;
+  }
+  .postsHeader {
+    font-size: 1.5rem;
+  }
+  .featuredPostItem img {
+    width: 200px;
+    height: 100px;
+  }
+  .featuredPostText1 {
+    font-size: 1rem;
+  }
+  .featuredPostText2 {
+    font-size: 0.7rem;
+  }
+  .allPostsItemText {
+    font-size: 0.7rem;
+  }
+  .aboutMission {
+    margin: 0;
+  }
+  .aboutMissionText {
+    flex-direction: column;
+  }
+  .aboutUsText1 {
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+  }
+  .aboutUsText2 {
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+  }
+  .ourMissionText1,
+  .ourMissionText2 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .ourMission {
+    padding: 5.6rem 0rem 10rem 5.1rem;
+  }
+  .chooseCategory {
+    font-size: 1.7rem;
+  }
+  .categoryTypes {
+    flex-direction: column;
+  }
+  .categories {
+    margin: 5.5rem 3rem 0rem 3rem;
+  }
+  .history {
+    flex-direction: column;
+    margin: 2rem 0rem 0rem 2rem;
+  }
+  .history img {
+    width: 20rem;
+    height: 15rem;
+  }
+  .historyText {
+    top: 9rem;
+    left: 1rem;
+    width: 100vw;
+    /* padding: 2rem 5rem; */
+    padding: 2rem 7rem 2rem 2rem;
+  }
+  .startStory,
+  .startStoryText,
+  .historyTextHeading {
+    margin: 0;
+    font-size: 0.7rem;
+    letter-spacing: 0;
+    line-height: 1.2rem;
+  }
+  .discoverStory {
+    font-size: 0.7rem;
+    padding: 0.5rem 1.5rem;
+  }
+  .authorsList {
+    margin: 7rem 0rem 0rem 2rem;
+  }
+  .aboutAuthors {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .opinion {
+    margin: 3rem 0rem 1rem 2rem;
+    flex-direction: column;
+  }
+  .mainOpinion,
+  .customerOpinion {
+    padding: 0;
+  }
+  .arrows {
+    margin: 0;
+  }
+  .arrow1,
+  .arrow2 {
+    color: black;
+    background-color: transparent;
+  }
+  .career {
+    margin: 0;
+  }
+  .careerHeading {
+    font-size: 1.7rem;
+  }
+  .footerHeader {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .footerMain {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem 2rem;
+  }
+  .footerMainText {
+    font-size: 1rem;
+    letter-spacing: 0;
+  }
+  .Subscribe,
+  .footerMain input {
+    margin: 0;
+    padding: 0.5rem 9rem 0.6rem 1.3rem;
+    height: 3rem;
+  }
+  .footerInfo {
+    flex-direction: column;
+  }
+}

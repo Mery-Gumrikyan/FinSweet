@@ -1,0 +1,681 @@
+* {
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #232536;
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.menu li {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.action button {
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 1rem 3rem;
+  background-color: white;
+  border: none;
+}
+
+.introduction {
+  margin: 0;
+  height: 45rem;
+  background-image: url(../assets/imageUnsplash1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.introduction .text {
+  padding: 8rem 34.7rem 12rem 5rem;
+}
+
+.start {
+  font-size: 1rem;
+  color: white;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.18rem;
+}
+
+.slogan {
+  margin-top: 1.5rem;
+  font-size: 3.5rem;
+  letter-spacing: -0.1rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.author {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+}
+
+.yellow {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffd050;
+}
+
+.about {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+}
+
+.readMore {
+  margin-top: 3rem;
+  padding: 1rem 3rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #232536;
+  background-color: #ffd050;
+  border: none;
+}
+
+.posts {
+  display: flex;
+  margin: 8rem 4.8rem 0rem 5rem;
+}
+
+.featuredPost {
+  width: 60%;
+}
+
+.postsHeader {
+  font-size: 2.25rem;
+  letter-spacing: -0.125rem;
+  font-weight: 700;
+  color: #232536;
+}
+
+.featuredPostItem {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.postsAuthor {
+  color: #4c4c4c;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.purple {
+  color: #592ea9;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.featuredPostText1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #232536;
+  letter-spacing: -0.06rem;
+}
+
+.featuredPostText2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6d6e76;
+}
+
+.allPosts {
+  padding-left: 2rem;
+  width: 100%;
+}
+
+.allPostsItem {
+  padding-left: 2rem;
+  padding-right: 7.25rem;
+}
+
+.allPostsItemText {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #232536;
+}
+
+.allPostsItem2 {
+  margin-top: 3.1rem;
+}
+
+.allPostsItem3 {
+  margin-top: 3.1rem;
+}
+
+.allPostsItem4 {
+  margin-top: 3.1rem;
+}
+
+.chosen {
+  width: 100%;
+  background-color: #fbf6ea;
+}
+
+.aboutMission {
+  margin: 9.3rem 5rem 0rem 5rem;
+}
+
+.aboutMission hr {
+  margin: 0;
+  height: 1.4rem;
+  background-color: #592ea9;
+  background-image: linear-gradient(
+    to right,
+    white 2%,
+    #ffd050 80%,
+    #592ea9 10%
+  );
+  border: white;
+}
+
+.aboutMissionText {
+  background-color: #f4f0f8;
+  display: flex;
+}
+
+.aboutUs {
+  padding: 6rem 0rem 6rem 5rem;
+}
+
+.aboutMission h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #232536;
+  letter-spacing: 0.18rem;
+  text-transform: uppercase;
+}
+
+.aboutUsText1 {
+  margin-top: 1.5rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #232536;
+  letter-spacing: -0.1rem;
+  line-height: 3rem;
+}
+
+.aboutUsText2 {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6d6e76;
+  line-height: 1.75rem;
+}
+
+#readMore {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #592ea9;
+}
+
+.ourMission {
+  padding: 5.6rem 6.75rem 10rem 5.1rem;
+}
+
+.ourMissionText1 {
+  margin-top: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #232536;
+  letter-spacing: -0.06rem;
+  line-height: 2.5rem;
+}
+
+.ourMissionText2 {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6d6e76;
+  line-height: 1.75rem;
+}
+
+.categories {
+  margin: 7.5rem 5rem 0rem 5rem;
+}
+
+.chooseCategory {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #232536;
+  letter-spacing: -0.125rem;
+}
+
+.categoryTypes {
+  display: flex;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+
+.categoryTypesItem {
+  padding: 2rem 2rem 2rem 2rem;
+  border-style: solid;
+  border-color: rgb(167, 161, 161);
+  border-width: 0.001rem;
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: #fbf6ea;
+  border-radius: 0.5rem;
+}
+
+.icon img {
+  padding: 0.75rem;
+}
+
+.categoryTypesItem i {
+  width: 3rem;
+  height: 3rem;
+  color: black;
+}
+
+.categoryTypesName {
+  margin-top: 1rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #232536;
+  letter-spacing: -0.06rem;
+}
+
+.categoryTypesText {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6d6e76;
+}
+
+.selected {
+  background-color: #ffd050;
+  border-color: transparent;
+}
+
+.history {
+  margin: 8rem 5rem 0rem 5rem;
+  position: relative;
+  display: flex;
+}
+
+.history img {
+  width: 59.3rem;
+  height: 44.06rem;
+}
+
+.historyText {
+  position: absolute;
+  /* top: 7.5rem; */
+  left: 35.8rem;
+  bottom: 0;
+  background-color: white;
+  padding: 5rem 5rem 5rem 5rem;
+}
+
+.historyTextHeading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #232536;
+  letter-spacing: 0.18rem;
+  text-transform: uppercase;
+}
+
+.startStory {
+  margin-top: 1.5rem;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.125rem;
+  color: #232536;
+  line-height: 4rem;
+}
+
+.startStoryText {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6d6e76;
+  line-height: 1.75rem;
+}
+
+.discoverStory {
+  padding: 1rem 3rem 1rem 3rem;
+  color: #232536;
+  font-size: 1.125rem;
+  font-weight: 700;
+  background-color: #ffd050;
+  border: transparent;
+}
+
+.authorsList {
+  margin: 8rem 5rem 0rem 5rem;
+}
+
+.authorsListHeading {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #232536;
+  letter-spacing: -0.125rem;
+  text-align: center;
+}
+
+.aboutAuthors {
+  margin-top: 3rem;
+  display: flex;
+  /* gap: 2rem; */
+  justify-content: space-between;
+}
+
+.authorItem {
+  width: 18.5rem;
+  padding: 2.5rem 1.75rem 2.5rem 1.75rem;
+  background-color: #f4f4f4;
+}
+
+.authorItem img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.authorName {
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #232536;
+  letter-spacing: -0.06rem;
+  text-align: center;
+}
+
+.authorSpecialization {
+  margin: 0;
+  font-size: 0.87rem;
+  font-weight: 400;
+  color: #6d6e76;
+  text-align: center;
+}
+
+.socialNetworks {
+  margin-top: 1.25rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.socialNetworks i {
+  width: 1rem;
+  height: 1.06rem;
+}
+
+.chosenAuthor {
+  background-color: #fbf6ea;
+}
+
+.opinion {
+  margin: 6rem 5rem 0rem 5rem;
+  background-color: #fbf6ea;
+  display: flex;
+}
+
+.mainOpinion {
+  padding-top: 5.75rem;
+  padding-left: 7rem;
+  padding-right: 5rem;
+}
+
+.testimonials {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #232536;
+  letter-spacing: 0.18rem;
+  text-transform: uppercase;
+}
+
+.opinionHeader {
+  margin-top: 0.75rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #232536;
+  letter-spacing: -0.125rem;
+  line-height: 3rem;
+}
+
+.opinionText {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #232536;
+}
+
+.opinion hr {
+  border: 1px solid #6d6e76;
+
+  /* transform: rotate(90deg);
+  width: 19rem; */
+}
+
+.customerOpinion {
+  padding: 5rem 10.8rem 4.6rem 6rem;
+}
+
+.feedback {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #232536;
+  line-height: 2rem;
+}
+
+.feedbackAuthor {
+  display: flex;
+  margin-top: 7.5rem;
+  gap: 1rem;
+}
+
+.feedbackAuthorImg img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.feedbackAuthorName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #232536;
+  line-height: 2rem;
+  margin: 0;
+}
+
+.feedbackAuthorPlace {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6d6e76;
+  margin: 0;
+}
+
+.arrows {
+  margin-left: 8.8rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.arrow1 {
+  padding: 1.5rem 0.8rem;
+  color: #232536;
+  font-size: 2rem;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.arrow2 {
+  padding: 2rem 1.125rem;
+  color: white;
+  font-size: 2rem;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.career {
+  margin: 7.8rem 32rem 0rem 32rem;
+  text-align: center;
+}
+
+.careerHeading {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #232536;
+  letter-spacing: -0.125rem;
+}
+
+.careerText {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6d6e76;
+}
+
+.joinNow {
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #232536;
+  background-color: #ffd050;
+  border-color: transparent;
+}
+
+.footer {
+  margin-top: 8rem;
+  background-color: #232536;
+  padding: 3.6rem 5rem 3.5rem 5rem;
+}
+
+.footerHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerLogo {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: white;
+}
+
+.footerMenu {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+}
+
+.footerMain {
+  margin-top: 3.4rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 5rem 4rem;
+  display: flex;
+}
+
+.footerMainText {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.125rem;
+}
+
+.footerMain input {
+  height: 3.5rem;
+  background-color: transparent;
+  margin-left: 4rem;
+  border: 1px solid #4c4c4c;
+  padding: 0.8rem 10.1rem 0.8rem 1.5rem;
+}
+
+::placeholder {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6d6e76;
+}
+
+.Subscribe {
+  margin-left: 1.5rem;
+  padding: 1rem 3rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #232536;
+  background-color: #ffd050;
+  border: none;
+  height: 3.5rem;
+}
+
+.footerInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerInfoAddress {
+  margin-top: 3rem;
+}
+
+.address {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  opacity: 0.7;
+}
+
+.footerInfoWebsites {
+  margin-top: 3.75rem;
+  display: flex;
+  gap: 1.6rem;
+  color: #6d6e76;
+}
+
+.footerInfoWebsites i {
+  width: 1rem;
+  height: 1rem;
+}
