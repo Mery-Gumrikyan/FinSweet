@@ -41,6 +41,10 @@ header {
   font-size: 1rem;
 }
 
+li:hover {
+  border-bottom: 0.3rem solid #ffd050;
+}
+
 .action button {
   font-size: 1.125rem;
   font-weight: 700;
@@ -59,7 +63,8 @@ header {
 }
 
 .introduction .text {
-  padding: 8rem 34.7rem 12rem 5rem;
+  padding: 8rem 0rem 12rem 5rem;
+  max-width: 57rem;
 }
 
 .start {
@@ -286,6 +291,10 @@ header {
   gap: 1rem;
 }
 
+.categoryTypes :hover {
+  background-color: #fbf6ea;
+}
+
 .categoryTypesItem {
   padding: 2rem 2rem 2rem 2rem;
   border-style: solid;
@@ -347,6 +356,7 @@ header {
   bottom: 0;
   background-color: white;
   padding: 5rem 5rem 5rem 5rem;
+  max-width: 44rem;
 }
 
 .historyTextHeading {
@@ -398,7 +408,6 @@ header {
 .aboutAuthors {
   margin-top: 3rem;
   display: flex;
-  /* gap: 2rem; */
   justify-content: space-between;
 }
 
@@ -414,6 +423,7 @@ header {
   border-radius: 50%;
   display: block;
   margin: auto;
+  object-fit: cover;
 }
 
 .authorName {
