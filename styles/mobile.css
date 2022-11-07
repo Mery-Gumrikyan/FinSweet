@@ -81,11 +81,12 @@
     height: 15rem;
   }
   .historyText {
-    top: 9rem;
+    top: 5rem;
     left: 1rem;
     width: 100vw;
     /* padding: 2rem 5rem; */
-    padding: 2rem 7rem 2rem 2rem;
+    padding: 2rem 2rem;
+    max-width: 18rem;
   }
   .startStory,
   .startStoryText,
